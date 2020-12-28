@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"hw1.3/pkg/card"
+	"github.com/ArtemBond13/hw1.3/pkg/card"
 	"time"
 )
 
@@ -42,5 +42,9 @@ func main() {
 
 	//fmt.Println(mcc)
 	totalResult := card.SumByMCC(master.Transactions, mcc)
-	fmt.Printf("Итого трат за месяц %d", totalResult)
+	fmt.Printf("Итого трат за месяц %d\n", totalResult)
+
+	category := card.TranslateMCC(master.Transactions[0].MCC)
+	fmt.Println(category)
+
 }

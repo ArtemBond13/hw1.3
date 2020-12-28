@@ -10,7 +10,7 @@ func TranslateMCC(code string) string {
 		"4978": "Children's and Infants' Wear Stores",
 		"5411": "Family Clothing Stores",
 	}
-	var searchResults = "There is no such code"
+	var searchResults = "Категория не указана"
 	for key, value := range mcc {
 		if code == key {
 			searchResults = value

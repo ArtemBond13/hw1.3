@@ -11,8 +11,8 @@ func ExampleTranslateMCC() {
 	fmt.Println(card.TranslateMCC("4156"))
 	fmt.Println(card.TranslateMCC("3456"))
 	// Output:
-	// There is no such code
+	// Категория не указана
 	// Men's and Boys' Clothing
 	// Women's Accessory and Special Stores
-	// There is no such code
+	// Категория не указана
 }

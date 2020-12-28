@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"hw1.3/pkg/card"
+	"github.com/ArtemBond13/hw1.3/pkg/card"
 	"time"
 )
 
